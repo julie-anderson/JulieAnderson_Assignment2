@@ -1,5 +1,7 @@
 # JulieAnderson_Assignment2
 
+Julie Anderson File Created 10/9/16 
+
 Assignment 2
 CIS-395: Programming for the Web
 
