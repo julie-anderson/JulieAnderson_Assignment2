@@ -1,0 +1,38 @@
+extends layout
+
+block content
+
+    .container
+        .row
+            section.col-xs-10.col-xs-offset-1.col-md-6.col-md-offset-3
+                h1.text-center Note Editor
+                form
+                    .form-group
+                        input.form-control(type='text', placeholder='Name your note', required='', autofocus='')
+                    .form-group
+                        textarea.form-control(rows='20', placeholder='Start typing...', required='')
+                    button.btn.btn-primary(type='button', data-toggle='modal', data-target='#save') Save
+
+                    #save.modal.fade
+                        .modal-dialog
+                            .modal-content
+                                .modal-header
+                                    button.close(type='button', data-dismiss='modal') ×
+                                    h4.modal-title Note Saved!
+                                .modal-body
+                                    p Your note has been saved and is available on the Notes screen.
+                                .modal-footer
+                                    button.btn.btn-default(type='button', data-dismiss='modal') Close
+
+                    button.btn.btn-danger(type='button', data-toggle='modal', data-target='#delete') Delete
+
+                    #delete.modal.fade
+                        .modal-dialog
+                            .modal-content
+                                .modal-header
+                                    button.close(type='button', data-dismiss='modal') ×
+                                    h4.modal-title Note Deleted!!!
+                                .modal-body
+                                    p Your note is gone forever.
+                                .modal-footer
+                                    button.btn.btn-default(type='button', data-dismiss='modal') Close
