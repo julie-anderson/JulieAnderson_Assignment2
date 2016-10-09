@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
-app.use('/notes', notes);
+app.use('/notes.js', notes);
 app.use('/editor.js', editor);
 
 // catch 404 and forward to error handler

@@ -15,7 +15,7 @@ successful and leads to the second screen.
 
 Screen 2: List of Notes
 
-This is simply a list of notes. You should have at least 10 note names that link to the third page (all the
+This is simply a list of notes.js. You should have at least 10 note names that link to the third page (all the
 same link). When the screen is made small enough that the whole list cannot fit onto the page, the list
 overflow should be scrollable
 Finally, there should be a button to add a new note (this can also just lead to the third screen).
